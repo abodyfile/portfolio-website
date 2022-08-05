@@ -1,0 +1,150 @@
+/*  default element */
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+
+
+div a i {
+  color: #C4DFAA;
+  font-size: 40px;
+  padding-left: 60px;
+}
+/* class element */
+.logo-name {
+  color: #FF0063;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  font-weight: 800;
+
+}
+
+.project-tile {
+   color: #B2C8DF;
+   font-size: 2.5em;
+   font-weight: 800;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.projects-link {
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.h2-name {
+    color: #f0f0f0;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.h3-job {
+    color: white;
+    font-size: 3em;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project .content {
+    margin-top: 40px;
+}
+
+.projects{
+
+    background-color: #2C3333;
+}
+
+.info-project {
+    padding: 40px;
+    margin: 50px 0;
+}
+
+.info-project p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.info-project p a {
+    color: pink;
+    text-decoration: none;
+    padding-bottom: 40px;
+    display: flex;    
+
+}
+
+.for-contact {
+    font-size: 2em;
+    font-weight: 500;
+    color: white;
+}
+/* hash element */
+
+#about {
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    align-items: center;
+    background: #2C3333;
+}
+
+
+#welcome-section {
+    height: 60px;
+    width: 100%;
+    background-color: #f0f0f0;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 220px;
+}
+
+#contact-section {
+    height: 60px;
+    display: flex;
+    background-color: #395B64;
+    
+}
+
+
+
+#navbar a {
+    text-decoration: none;
+    color: #FF0063;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 100px;
+}
+
+#navbar a:hover {
+    color: #EB1D36;
+}
+
+#navbar a:active {
+    color: #000000;
+}
